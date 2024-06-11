@@ -7,14 +7,16 @@ Page includes:
 - a setcion showcasing my previous and current projects
 - a section with contact info for many platforms
 
-## Installation
+## Screenshots
+![alt text](<assets/images/Challange 2 wireframe.png>)
 
-N/A
+<video controls src="20240611-1827-43.8349778.mp4" title="Title"></video>
 
 ## Usage
 
 Allows others to veiw my works in a profesional manner and reach out to me if theyre interested in working with me
 
 ## Credits
-- Nicolas pace: all code and style elements
+- Nicolas pace: code and style elements
+- UNCC: Explinations to help porperly apply code
 
