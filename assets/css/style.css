@@ -1,0 +1,138 @@
+:root{
+  --link: #747ba5;
+  --header: #8b4ea4;
+  --mainw: 1200px;
+  --mainh: 600px;
+  --smw: 500px;
+  --smh: 200px;
+  
+}
+  
+  body {
+    background-color: #3c2323;
+}
+  h1 {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2daeef;
+    color: var(--header);
+}
+li {
+  padding-top: 1px;
+  margin-right: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+  display: inline;
+  margin-left: 5px;
+}
+
+
+a {
+  color: var(--link);
+  text-decoration: none;
+  font-size: 26px;
+}
+
+p {
+  color:#ffffff ;
+  font-size: 26px;
+}
+
+
+
+/* Horiseon */
+h2 {
+  margin-bottom: 20px;
+  padding: 50px;
+  width: var(--mainw);
+  height: var(--mainh);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-color: #33395a;
+  text-align: center;
+}
+
+/* Itch.io */
+h3 {
+  margin-bottom: 20px;
+  padding: 50px;
+  width: var(--smw);
+  height: var(--smh);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: url("../images/itch.io.png");
+  background-position: center;
+  background-size: cover;
+  background-color: #33395a;
+  text-align: center;
+}
+
+/* Unvale */
+h4{
+  margin-bottom: 20px;
+  padding: 50px;
+  width: var(--smw);
+  height: var(--smh);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: url("../images/Unvale\ logo.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: #33395a;
+  text-align: center;
+}
+
+ /*Projet:Dulla  */
+h5 {
+  margin-bottom: 20px;
+  padding: 50px;
+  width: var(--smw);
+  height: var(--smh);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: url("../images/obsidian\ logo.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: #33395a;
+  text-align: center;
+}
+
+/* Rise of the morning stars */
+h6 {
+  margin-bottom: 20px;
+  padding: 50px;
+  width: var(--smw);
+  height: var(--smh);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: url("../images/Rise\ of\ the\ morning\ star\ logo\ 1.png");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+
+  /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+  @media screen and (min-width: 768px) {
+    /* on tablets, set columns to only be 50% of the width and not grow */
+    .card-column {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  
+    /* select the last child to grow to full width if it has space to grow */
+    .card-column:last-child {
+      flex-grow: 1;
+    }
+  }
+  
+  /* media query for larger screens */
+  @media screen and (min-width: 992px) {
+    header {
+      width: 75%;
+    }
+  
+    .card-column {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+  }
+  
