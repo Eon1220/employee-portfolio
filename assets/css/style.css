@@ -11,12 +11,16 @@
   body {
     background-color: #3c2323;
 }
+
+/* style for section headers */
   h1 {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2daeef;
     color: var(--header);
 }
+
+/* links to app sections */
 li {
   padding-top: 1px;
   margin-right: 20px;
@@ -27,18 +31,21 @@ li {
   margin-left: 5px;
 }
 
+/* Avatar */
 img {
   width: 100px;
   height: 100px;
   margin-right: 2000px;
 }
 
+/* color for links in app */
 a {
   color: var(--link);
   text-decoration: none;
   font-size: 26px;
 }
 
+/* about me color */
 p {
   color:#ffffff ;
   font-size: 26px;
@@ -114,7 +121,7 @@ h6 {
   text-align: center;
 }
 
-
+/* allows text to wrap with screen size */
   @media screen and (min-width: 768px) {
     
     .appBox {
