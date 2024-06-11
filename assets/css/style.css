@@ -27,6 +27,11 @@ li {
   margin-left: 5px;
 }
 
+img {
+  width: 100px;
+  height: 100px;
+  margin-right: 2000px;
+}
 
 a {
   color: var(--link);
@@ -109,28 +114,17 @@ h6 {
   text-align: center;
 }
 
-
-  /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
   @media screen and (min-width: 768px) {
-    /* on tablets, set columns to only be 50% of the width and not grow */
-    .card-column {
+    
+    .appBox {
       flex: 0 0 50%;
       max-width: 50%;
     }
-  
-    /* select the last child to grow to full width if it has space to grow */
-    .card-column:last-child {
-      flex-grow: 1;
-    }
   }
   
-  /* media query for larger screens */
-  @media screen and (min-width: 992px) {
-    header {
-      width: 75%;
-    }
   
-    .card-column {
+  @media screen and (min-width: 992px) {
+    .appBox {
       flex: 0 0 33.333%;
       max-width: 33.333%;
     }
